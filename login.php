@@ -97,12 +97,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User login system</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
   <script defer src="./js/script.js"></script>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+  
 </head>
 
 <body>
+<nav class ="navbar navbar-expand-xl navbar-dark bg-transparent", class="navigation", style="color:#fff; ">
+  <a class ="navbar-brand" href ="#"> Website Name </a>
+  <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+  <span class ="navbar-toggler-icon"></span>
+  </button>
+  <div class ="collapse navbar-collapse" id ="colNav">
+  <ul class ="navbar-nav">
+  <li class ="nav-item">
+  <a class ="nav-link" href="index.html" style="color:
+  #fff;"> Home </a>
+  </li>
+  
+  <li class="nav-item">
+     <a href='login.php'><button class="button" >Login</button></a>
+  </li>
+  </ul>
+  </div>
+  </nav>
   <div class="container">
     <div class="row min-vh-100 justify-content-center align-items-center">
       <div class="col-lg-5">
