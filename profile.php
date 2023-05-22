@@ -25,7 +25,7 @@ $stmt->bind_result( $email, $password);
 $stmt->fetch();
 $stmt->close();
 ?>
-?>
+
 <!DOCTYPE html>
 <html>
 	<head>
