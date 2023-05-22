@@ -1,0 +1,13 @@
+body {
+    background: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png') no-repeat,100% ;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+
+   backdrop-filter: blur(20px);
+}
+
+.wrapper a {
+    color: black;
+}
